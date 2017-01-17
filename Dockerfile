@@ -30,7 +30,7 @@ RUN apt-get update && apt-get -y install \
 
 RUN apt-get -y clean
 
-RUN wget https://sourceforge.net/projects/devkitpro/files/devkitARM/devkitARM_r45/devkitARM_r45-x86_64-linux.tar.bz2 -O dka.tar.bz2 && \
+RUN wget https://sourceforge.net/projects/devkitpro/files/devkitARM/devkitARM_r46/devkitARM_r46-x86_64-linux.tar.bz2 -O dka.tar.bz2 && \
 	mkdir $DEVKITPRO && \
 	tar -xaf dka.tar.bz2 -C $DEVKITPRO && \
 	rm dka.tar.bz2
