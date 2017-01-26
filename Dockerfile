@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:zesty
 MAINTAINER Thomas Edvalson "machin3@gmail.com"
 
 ENV DEVKITPRO /opt/devkitPro
